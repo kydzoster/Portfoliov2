@@ -13,9 +13,9 @@
     </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-            <a href="index.html">
+            <a href="#echo">
                 <img class="logo" src="assets/images/logo.bmp" alt="My Logo, Martins Silins Portfolio">
             </a>
           
@@ -30,19 +30,19 @@
               <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-
-                <li class="nav-item active">
-                  <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="works.html">Works</a>
+                    <a class="nav-link" href="#skills">My Skills</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 
               </ul>
@@ -52,7 +52,13 @@
         </nav>
     </header>
 
-    <section>
+    <section id="echo">
+        <div class="container">
+            <div class="row mt-5"></div>
+        </div>
+    </section>
+
+    <section id="about">
         <div class="container-fluid">
             <div class="row no-gutters mt-5">
                 <div class="col-sm-1"></div>
@@ -71,7 +77,8 @@
                                 <hr class="block-divider block-divider--white">
                                 <br>
                                 <h5 class="ml-3 mr-3">I am a Full-Stack Web Developer based in Kent, UK. 
-                                    Currently studying coding at Code Institute.</h5>
+                                    Currently studying coding at 
+                                    <span class="work-dec mt-3"><a href="https://codeinstitute.net/" target="_blank">Code Institute</a></span>.</h5>
                                     <br>
                                 <h5 class="ml-3 mr-3">I work quickly and effectively in getting things built
                                      and working accross the stack. I'm an excellent communicator
@@ -86,7 +93,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="skills">
         <div class="container-fluid">
             <div class="row no-gutters mt-5">
                 <div class="col-sm-1"></div>
@@ -164,7 +171,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="projects">
         <div class="container-fluid">
             <div class="row no-gutters mt-5">
                 <div class="col-sm-1"></div>
@@ -225,7 +232,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="contact">
         <div class="container-fluid">
             <div class="row no-gutters mt-5">
                 <div class="col-sm-1"></div>
