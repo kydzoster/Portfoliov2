@@ -37,6 +37,7 @@ h5{
     width: 100%;
     z-index: 2;
     border-bottom: #e84610 1px solid;
+    opacity: .9;
 }
 /**/
 /**/
@@ -172,6 +173,14 @@ h5{
 
 .form-group{
     color: azure;
+}
+
+.form-control{
+    background-color: transparent;
+}
+
+.form-control:hover{
+    border-color: #e84610;
 }
 
 .enter{
